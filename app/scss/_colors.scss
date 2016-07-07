@@ -1,0 +1,14 @@
+$palette-blues: #90CDEC, #62BEEB, #57A9D1, #4D95B8;
+$color-blue100: nth($palette-blues, 1);
+$color-blue300: nth($palette-blues, 2);
+$color-blue500: nth($palette-blues, 3);
+$color-blue700: nth($palette-blues, 4);
+
+$palette-greys: #C7CACC, #7A8C8F, #636566;
+$color-grey100: nth($palette-greys, 1);
+$color-grey300: nth($palette-greys, 2);
+$color-grey500: nth($palette-greys, 3);
+
+$color-green100: #9BB9A3;
+
+$color-brown100: #4B413D;

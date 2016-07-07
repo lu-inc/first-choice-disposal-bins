@@ -1,0 +1,110 @@
+.main-homepage {
+  .main-homepage-title {
+    color: #fff;
+  }
+  .main-homepage-right {
+    padding-top: 50px;
+    i.fa-phone {
+      float: left;
+      font-size: 80px;
+      padding-top: 12px;
+      padding-right: 25px;
+      margin-bottom: 25px;
+      @media (max-width: 768px) {
+        font-size: 2.5em;
+      }
+    }
+    p {
+      padding-top: 10px;
+      font-size: 1.2em;
+      a {
+        color: #fff;
+        font-size: 1.5em;
+      }
+    }
+    b {
+      color: #fff;
+    }
+    @media (max-width: 375px) {
+      padding-top: 0;
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+.triple-layout {
+  h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    @media (max-width: 768px) {
+      margin-top: 20px;
+    }
+  }
+}
+
+.map-section {
+  iframe {
+    min-height: 300px;
+    margin-top: -30px;
+    @media (max-width: 768px) {
+      margin-top: 20px;
+    }
+    @media (max-width: 450px) {
+      width: 100%;
+    }
+  }
+}
+
+.contact-section {
+  position: relative;
+  background-size: cover;
+  background-position-y: -180px;
+  h2, a, p, i{
+    color: #fff;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+  }
+  .contact-info {
+    max-width: 450px;
+  }
+  ul {
+    padding-top: 50px;
+    li {
+      float: left;
+      font-size: 3em;
+      padding: 0 15px;
+      color: #fff;
+      &:first-child {
+        padding-left: 0;
+      }
+      a {
+        &:hover {
+          text-decoration: none;
+          color: $color-blue100;
+        }
+        i:hover {
+          color: $color-blue100;
+        }
+      }
+    }
+  }
+  @media (max-width: 375px) {
+    ul {
+      padding: 15px 0;
+      width: 269px;
+      li {
+        font-size: 2em;
+      }
+    }
+  }
+}

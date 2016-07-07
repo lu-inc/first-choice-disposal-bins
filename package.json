@@ -1,0 +1,25 @@
+{
+  "name": "Dump_It_Bins",
+  "version": "1.0.0",
+  "description": "Marketing Site for Dump It Bins",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Garbage",
+    "Bins",
+    "Dump"
+  ],
+  "author": "Alex Grant",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+h2 {
+  font-weight: 600;
+}
+.section {
+  height: 400px;
+  padding-top:80px;
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 25px 0;
+  }
+}
+.section-blue {
+  background-color: $color-blue300;
+  h2, p, i, li {
+    color: #fff;
+  }
+}
