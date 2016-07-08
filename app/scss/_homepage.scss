@@ -1,6 +1,6 @@
 .main-homepage {
   .main-homepage-title {
-    color: #fff;
+    // color: #354656;
   }
   .main-homepage-right {
     padding-top: 50px;
@@ -18,12 +18,12 @@
       padding-top: 10px;
       font-size: 1.2em;
       a {
-        color: #fff;
+        color: #337ab7;
         font-size: 1.5em;
       }
     }
     b {
-      color: #fff;
+      color: #354656;
     }
     @media (max-width: 375px) {
       padding-top: 0;
@@ -83,7 +83,7 @@
       float: left;
       font-size: 3em;
       padding: 0 15px;
-      color: #fff;
+      // color: #354656;
       &:first-child {
         padding-left: 0;
       }
