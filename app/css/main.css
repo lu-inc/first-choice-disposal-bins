@@ -24,7 +24,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
   font-family: 'Open Sans', sans-serif;
-  color: #636566; }
+  color: #6E7172; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -5878,9 +5878,7 @@ h2 {
       padding: 25px 0; } }
 
 .section-blue {
-  background-color: #62BEEB; }
-  .section-blue h2, .section-blue p, .section-blue i, .section-blue li {
-    color: #fff; }
+  background-color: #E9EEF2; }
 
 .main-header {
   z-index: 999;
@@ -5906,8 +5904,7 @@ h2 {
   .main-header .main-header-contact--wrapper {
     text-align: right; }
     .main-header .main-header-contact--wrapper p {
-      font-weight: 700;
-      color: #337ab7; }
+      font-weight: 700; }
       .main-header .main-header-contact--wrapper p a {
         font-weight: 300; }
     @media (max-width: 450px) {
@@ -5915,8 +5912,6 @@ h2 {
         padding-top: 25px;
         text-align: left; } }
 
-.main-homepage .main-homepage-title {
-  color: #fff; }
 .main-homepage .main-homepage-right {
   padding-top: 50px; }
   .main-homepage .main-homepage-right i.fa-phone {
@@ -5932,10 +5927,10 @@ h2 {
     padding-top: 10px;
     font-size: 1.2em; }
     .main-homepage .main-homepage-right p a {
-      color: #fff;
+      color: #337ab7;
       font-size: 1.5em; }
   .main-homepage .main-homepage-right b {
-    color: #fff; }
+    color: #354656; }
   @media (max-width: 375px) {
     .main-homepage .main-homepage-right {
       padding-top: 0; }
@@ -5981,15 +5976,14 @@ h2 {
     .contact-section ul li {
       float: left;
       font-size: 3em;
-      padding: 0 15px;
-      color: #fff; }
+      padding: 0 15px; }
       .contact-section ul li:first-child {
         padding-left: 0; }
       .contact-section ul li a:hover {
         text-decoration: none;
-        color: #90CDEC; }
+        color: #F5FBFF; }
       .contact-section ul li a i:hover {
-        color: #90CDEC; }
+        color: #F5FBFF; }
   @media (max-width: 375px) {
     .contact-section ul {
       padding: 15px 0;
